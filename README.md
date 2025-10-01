@@ -103,6 +103,16 @@ helios-production-project/
 ```
 
 ---
+## 🖼️ Visual Overview
+
+![Factory Plan](images/factory_plan.png)
+
+![Helium Purification](images/helium_purifection.png)
+
+![Helium Liquefaction](images/helium_lequifidation.png)
+
+![Simulation ARENA](images/simulation_arena.png)
+
 
 ## 📦 Dependencies
 - `numpy`, `pandas`, `matplotlib`, `scipy`  
