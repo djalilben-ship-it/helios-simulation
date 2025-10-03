@@ -1,13 +1,9 @@
-# 🚀 HELIOS — Helium Production Chain Analysis & Simulation  
+#  HELIOS — Helium Production Chain Analysis & Simulation  
 
-**Engineering Project Portfolio**  
-*"Analyse et simulation de la chaîne de production d’hélium au sein de l’entreprise HELIOS"*  
-**Authors:** Mehdi Zouaoui & Fatima Zohra Safi  
-**Institution:** ESSA Tlemcen, Algeria — July 2021  
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 This project studies, models, and simulates the **helium production chain** at **HELIOS**, a major industrial plant in Algeria that supplies ~70% of Europe’s helium needs.  
 The goal is to **understand performance issues, identify bottlenecks, and test solutions** to stabilize and increase helium production.  
 
@@ -17,7 +13,7 @@ The work was carried out in two complementary phases:
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Evaluate the helium production chain and its real-time functioning.  
 - Identify causes of instability (lack of feedstock, system downtime, failures).  
 - Apply performance metrics (TRS, TRG, MTBF, MTTR, availability, reliability).  
@@ -27,18 +23,18 @@ The work was carried out in two complementary phases:
 
 ---
 
-## 🔑 Key Contributions
-- 📊 **Statistical Analysis** of production variability (mean, std, CI, control charts).  
-- ⚙️ **Performance Metrics** to measure reliability and productivity.  
-- 🔧 **Failure Mode & Effects Analysis (AMDEC / FMEA)** for preventive maintenance.  
-- 🏭 **Process Automation Modeling (GRAFCET)** for the PSA subsystem.  
-- 🖥️ **Discrete-Event Simulation with ARENA** to model baseline and improved scenarios.  
-- 🐍 **Python Reimplementation** using open-source libraries (`pandas`, `simpy`, `scikit-fuzzy`).  
-- 🤖 **Fuzzy Logic Controller** to estimate control (≈0.9) and yield (≈98%).  
+##  Key Contributions
+-  **Statistical Analysis** of production variability (mean, std, CI, control charts).  
+-  **Performance Metrics** to measure reliability and productivity.  
+-  **Failure Mode & Effects Analysis (AMDEC / FMEA)** for preventive maintenance.  
+-  **Process Automation Modeling (GRAFCET)** for the PSA subsystem.  
+-  **Discrete-Event Simulation with ARENA** to model baseline and improved scenarios.  
+-  **Python Reimplementation** using open-source libraries (`pandas`, `simpy`, `scikit-fuzzy`).  
+-  **Fuzzy Logic Controller** to estimate control (≈0.9) and yield (≈98%).  
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Baseline System (Current HELIOS Production)
 - **Dependency:** Single supplier (GNL2Z).  
@@ -73,7 +69,7 @@ The work was carried out in two complementary phases:
 
 ---
 
-### ✅ Final Conclusion
+###  Final Conclusion
 - The **main bottleneck** is insufficient gas feedstock, not technical plant capacity.  
 - **Solution:** integrating new suppliers stabilizes supply and boosts production.  
 - **Combined effects:**  
@@ -84,7 +80,7 @@ The work was carried out in two complementary phases:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 ```
 
 helios-production-project/
@@ -103,7 +99,7 @@ helios-production-project/
 ```
 
 ---
-## 🖼️ Visual Overview
+##  Visual Overview
 
 ![Factory Plan](images/factory_plan.png)
 
@@ -114,7 +110,7 @@ helios-production-project/
 ![Simulation ARENA](images/simulation_arena.png)
 
 
-## 📦 Dependencies
+##  Dependencies
 - `numpy`, `pandas`, `matplotlib`, `scipy`  
 - `simpy` — discrete-event simulation  
 - `transitions` — state machine (automation model)  
@@ -123,26 +119,15 @@ helios-production-project/
 
 ---
 
-## 🧾 Citation
-If you use this work, please cite:
 
-> Zouaoui, M. & Safi, F. Z. (2021). *Analyse de la chaîne de production d’hélium au sein de l’entreprise HELIOS.* Mémoire d’ingénieur, ESSA Tlemcen.
 
----
-
-## 📜 License
+##  License
 This project is released under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
-- Supervisors: Pr. Hafaf Hafid, Dr. Maliki Fouad  
-- HELIOS staff: Meslem Lahouari, Bouhamida Nabil, Mehdi Bouras  
-- Jury: Dr. Bennakrouf, Dr. Ghomri  
 
----
 ```
 
 ---
 
-👉 Do you also want me to **add visual charts (plots)** for these quantified results (e.g., *bar chart comparing availability before vs after, fuzzy output diagram*) so that your README includes graphics, not just numbers?
